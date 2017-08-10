@@ -26,7 +26,7 @@
 				$stmt->bindParam(':t',time());
 				$stmt->bindParam(':ua',$_SERVER['HTTP_USER_AGENT']);
 				$stmt->bindParam(':addr',$_SERVER['REMOTE_ADDR']);
-				//$stmt->bindParam(':ipaddress',$_SERVER['HTTP_X_FORWARDED_FOR'],SQLITE3_TEXT);
+				//$stmt->bindParam(':addr',$_SERVER['HTTP_X_FORWARDED_FOR'],SQLITE3_TEXT);
 				$stmt->execute();
 				echo '<a href="index.php">提交成功！点击返回。</a>';
 			}
