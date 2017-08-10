@@ -1,4 +1,4 @@
 # Simple-Message-Board
-A simple way to build your own message board on your website.
+一个简单的方式在你的服务器上建造一个留言板
 
-Please notice that you should ban *.db on your webserver.
+请注意，在你的web服务器中禁止访问*.db的文件。
